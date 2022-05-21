@@ -1,0 +1,90 @@
+.wrapper{
+    display: flex;
+}
+.main-container{
+    /* margin: 2% 0% 2% -2.5%; */
+    width: 100%;
+    height: 100%;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+.stat-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    width: 210px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px  0.1px rgba(0,0,0,0.5) ;
+}
+.rose{
+    background: url("./bubble.png"),no-repeat,linear-gradient(90deg,#fc9f65,#fe7096);
+    background-size: cover;
+}
+.blue{
+    background: url("./bubble.png"),no-repeat,linear-gradient(90deg,#79c0fa,#047edf 99%);
+    background-size: cover;
+}
+.cyan{
+    background: url("./bubble.png"),no-repeat,linear-gradient(90deg,#84d9d2,#07cdae);
+    background-size: cover;
+}
+.yellow{
+    background: url("./bubble.png"),no-repeat,linear-gradient(90deg,#356788,#048eeb);
+    background-size: cover;
+}
+.title{
+    text-align: center;
+    font-family:"Ubuntu",sans-serif;
+    font-size: 14pt;
+    color: white;
+}
+.data{
+    margin-top: 2%;
+    font-size: 25pt;
+    font-style: italic;
+    color: white;
+
+}
+/*charts*/
+.charts-container{
+    margin: 10% 2.5% 10% 4% ;
+    box-shadow: 3px 3px 6px  0.1px rgba(0,0,0,0.5) ;
+    border-radius: 1%;
+    text-align: center !important;
+    background-color: rgb(242,237,243);
+}
+.charts-row{
+    margin: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center !important;
+    max-width: inherit;
+}
+.charts-col{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-self: center !important;
+    max-width: inherit;
+    box-shadow: 3px 3px 6px  0.1px rgba(0,0,0,0.5) ;
+    border-radius: 5px;
+}
+.chart-title{
+    text-align: center;
+    font-family: Arial;
+    font-style: italic;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}

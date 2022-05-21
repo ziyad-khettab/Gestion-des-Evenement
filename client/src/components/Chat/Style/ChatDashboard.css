@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Open+Sans:wght@300;400;500;600&display=swap');
+:root{
+    --mainColor:#3889cf;
+    --mainp:#FFF;
+    --mainSpan:#000;/*rgb(35, 189, 189)*/
+}
+.chatDashboard{
+    background-color: var(--mainColor);
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+    color:var(--mainp)
+}
+.chatDashboard .Profil{
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.chatDashboard .Profil .images{
+    width:70px;
+    height:70px;
+}
+.chatDashboard .Profil .images img{
+    border-radius:50%;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.chatDashboard .Profil h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.chatDashboard .Profil h3 span{
+    color:var(--mainSpan);
+    margin-top:10px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.events h4{
+    font-size:23px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.events .event_ele {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 14px;
+    max-height: 100px;
+    padding:7px;
+    border-radius: 10px;
+}
+
+.events .event_ele img{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    /* border:px solid rgb(201, 86, 144);*/
+    margin-right: 25px;
+}
+
+.events .event_ele .box{
+    padding: 8px 16px;
+    border-radius: 12px;
+    margin-right: 24px;
+    color:#000;
+}
+.events .active{
+    background-color: #6c9fcc;
+}
+
+.events .event_ele:hover{
+    background-color: #6c9fcc;
+    cursor: pointer;
+}
+.events :nth-child(2) .box{
+
+    background-color: rgb(226, 77, 77);
+}
+.events :nth-child(3) .box{
+    background-color: rgb(64, 200, 224) ;
+}
+.events :nth-child(4) .box{
+    background-color: rgb(214, 140, 29);
+}
+
+.events .event_ele .Pbox p{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10px;
+    font-family: 'Roboto', sans-serif;
+}

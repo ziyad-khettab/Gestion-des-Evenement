@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@100;300;400&display=swap');
+.chatBox{
+    border-radius: 10px;
+    margin:70px auto;
+    background-color: #FFF;
+    max-width: 1200px;
+    height: 650px;
+    display: flex;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+
+}
+.chatBox .container{
+    padding:20px 22px;
+}

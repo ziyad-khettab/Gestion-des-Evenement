@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.modalr {
+  position: fixed;
+  display:flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modalr-main {
+  border-radius: 15px;
+  padding-top: 10px;
+  position:fixed;
+  background: white;
+  width: 30%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.modalr-title{
+  margin-top:15px;
+  font-family: 'Roboto','sans-serif';
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom : 10px;
+}
+
+.modalr-wrapper{
+  display:flex;
+  width : 350px;
+  justify-content: space-between;
+  padding : 10px 25px;
+}
+
+.modalr-label{
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.712);
+  font-weight: bolder;
+  font-family: 'Roboto','sans-serif';
+  font-size: 14px;
+}
+
+.modalr-input{
+  margin-top : 2px;
+  padding-top: 2px;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto','sans-serif';
+  font-size: 14px;
+  width: 160px;
+  padding-left: 4px;
+}
+
+.modalr-buttons{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left : 40px;
+  padding-right: 40px;
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* CSS */
+.modalr-button {
+  width: 150px;
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 4px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.modalr-button:hover {
+  background-color: #6788c981;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.modalr-button:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #70adeb;
+  cursor: default;
+}
+
+.modalr-button:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(135, 187, 255, 0.514) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.modalr-button:focus {
+  outline: 1px transparent;
+}
+
+.modalr-button:before {
+  display: none;
+}
+
+.modalr-button::-webkit-details-marker {
+  display: none;
+}
+
+select{
+  width: 160px;
+}

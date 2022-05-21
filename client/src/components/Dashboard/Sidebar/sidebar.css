@@ -1,0 +1,108 @@
+
+.side-bar{
+    margin-left : 10px;
+    padding : 10px;
+    padding-right : 30px;
+    width: 280px;
+    height: 100em;
+    overflow: auto;
+    border-right: 1px dashed rgba(15, 15, 15, 0.473);
+    background-color: rgba(248,249,250);
+
+  }
+
+  .side-bar-button{
+    padding-right: 80px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display : flex;
+    width: 220px;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0px solid;
+    border-radius: 5px;
+
+    font-family: 'ROBOTO';
+    font-size: 12px;
+    font-weight: bolder;
+    color : #356788;
+  }
+
+  .side-bar-button a{
+    text-align: left;
+    padding-right: 80px;
+    text-decoration: none;
+    color: black;
+
+  }
+
+  .side-bar-button-icon{
+    margin-right : 20px;
+  }
+
+  .side-bar-button:hover{
+    color : var(--color3);
+    background: #e2f9f3;
+    font-weight: bold;
+  }
+  .side-bar-button a:hover{
+    color: var(--color3);
+  }
+  .side-bar-user-wrapper{
+    display: flex;
+    padding: 10px;
+    padding-top : 15px;
+    padding-bottom : 15px;
+    padding-right: 50px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    background: var(--color2);
+    color:white;
+  }
+
+  .side-bar-user-icon{
+    padding-left : 10px;
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .side-bar-user-icon img{
+    max-width: 30px;
+    max-height: 30px;
+    border-radius : 20px;
+  }
+
+  .side-bar-user-name{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    font-size: 13px;
+  }
+
+  .side-bar-user-name b{
+    padding: 3px;
+    padding-bottom: 5px;
+  }
+
+  .section-title{
+    margin-top:15px;
+    text-transform: uppercase;
+    font-family: 'Roboto', Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+    color: rgb(15, 15, 15);
+  }
+
+
+  .side-bar-logo{
+    margin : 0;
+    padding-left: 20px;
+    background-color: transparent;
+  }

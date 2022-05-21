@@ -1,0 +1,139 @@
+.chatRoom{
+    background-color: #FFF;
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+}
+.chatRoom .ChatMessage{
+    height: 90%;
+    overflow-y: auto;
+}
+/*
+.chatRoom .ChatMessage .title{
+    position: fixed;
+}*/
+.chatRoom .ChatMessage .title h3{
+    font-size:18px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.chatRoom .ChatMessage span{
+    display:block;
+    width:100% ;
+    border-top: 1px solid #ccc;
+    font-family: 'Roboto', sans-serif;
+}
+.chatRoom .ChatMessage .message{
+    margin-top:10px;
+}
+/*
+.chatRoom .ChatMessage .message .msg{
+    background-color: #DDD;
+    padding:10px 16px;
+    margin-bottom: 13px;
+}
+*/
+.chatRoom .ChatMessage .message {
+    width:100%;
+
+}
+
+.chatRoom .ChatMessage .message .msg
+{
+    width:60%;
+    margin-bottom: 20px;
+}
+.chatRoom .ChatMessage .message .msg .title-msg
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+
+}
+.chatRoom .ChatMessage .message .msg .title-msg img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+.chatRoom .ChatMessage .message .msg .title-msg strong{
+    margin-bottom: 5px;
+    display: block;
+}
+
+/*font-family: 'Roboto', sans-serif;*/
+
+.chatRoom .ChatMessage .message .msg .paragraph p,.chatRoom .ChatMessage .message .msg .title-msg strong{
+    font-family: 'Roboto', sans-serif;
+}
+.chatRoom .ChatMessage .message .msg .paragraph{
+    background-color: #DDD;
+    padding:10px 16px;
+    margin-bottom: 13px;
+    margin-left: 50px;
+    inline-size: 100%;
+    overflow-wrap: break-word;
+}
+
+
+.me {
+    justify-content: flex-start;
+}
+.me .paragraph{
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
+.you{
+    margin-left:31%;
+
+    /*  justify-content: flex-end !important;
+      align-items: flex-end !important;*/
+}
+.you .paragraph{
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+    border-top-left-radius:10px ;
+    background-color: #3889cf !important;
+    color:#FFF;
+}
+.you strong{
+    margin-left:50px;
+}
+
+/******************************************************/
+.chatRoom .inputMessage{
+    margin-top:10px;
+    display: flex;
+    height: 10%;
+    width: 98%;
+}
+
+.chatRoom .inputMessage input{
+    width: 95%;
+    padding-left: 8px;
+    padding-right: 8px;
+    outline: none;
+    border:1px solid #DDD;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+    font-size:17px;
+    font-family: 'Roboto', sans-serif;
+}
+.chatRoom .inputMessage button{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+    padding: 12px;
+    background-color: var(--mainColor);
+    border: none;
+    color:#FFF;
+    font-weight: bold;
+    width: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+.chatRoom .inputMessage button:hover{
+    background-color:rgb(98, 205, 255) ;
+}

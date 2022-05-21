@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap');
+
+html{
+    background-color: #eaeaea;
+}
+
+*{
+    box-sizing: border-box;
+}
+:root{
+    --font:'Dongle', sans-serif;
+    --span:#ada2a2;
+    --mainColor:#5e5c5c;
+    --blue:rgb(32, 181, 207);
+    --red:#c54848;
+}
+
+.ProfilAll{
+    background-color: #eaeaea;
+}
+
+
+.ProfilUser{
+    background-color: #FFF;
+    border-radius: 10px;
+    height: 50%;
+    width:60%;
+    margin:65px auto;
+    margin-top: 180px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px 30px;
+    padding-right: 20px;
+}
+
+.ProfilUser .container{
+    height: 65vh;
+
+}
+
+/*First Profil Start */
+.ProfilUser .container .First{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.ProfilUser .container .First .count{
+    display: flex;
+    color: var(--mainColor);
+}
+
+.First .count .ele span{
+    margin-right: 12px;
+}
+
+.First .count .ele span.Nombre{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font);
+  font-size:25px;
+  color:#FFF;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+}
+.First .count .ele span.Nombre.one{
+    background-color: var(--blue);
+}
+
+.First .count .ele span.Nombre.two{
+    background-color: var(--red);
+}
+/*
+.First .count .ele span.Nombre.three{
+    background-color: #42c5a4;
+}*/
+
+.First .count .ele span.titre{
+    font-family: var(--font);
+    font-size:22px;
+    font-weight: bold;
+color:var(--mainColor);
+letter-spacing: 1.5px;
+}
+
+
+/**********************************************/
+.First .imagesUser{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    position:relative;
+    top: -110px;
+    left: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+}
+.First .connect button{
+    background-color: #c54848;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 17px;
+    font-family: var(--font);
+    font-size: 24px;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    margin-right: 8px;
+}
+.First .connect button:hover{
+background-color: #c71c1c;
+transform: scale(1.05);
+}
+/*First Profil END */
+/*Main Profil Start*/
+.container .main{
+    position: relative;
+    top: -6px;
+    left:80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container .main p,.container .main h4{
+    font-family: var(--font);
+    color:var(--mainColor);
+    margin:0px;
+}
+.container .main p{
+    font-size: 25px;
+}
+.container .main h4{
+    font-size: 45px;
+    color:#000;
+}
+
+
+/*Main Profil END*/
+
+/*hr{
+    position: relative;
+    top:10px;
+    left:45px;
+}*/
+/*
+.container .foot{
+    position: relative;
+    top: -79px;
+    right: -200px;
+    width: 656px;
+}
+.container .foot .description{
+   font-family: var(--font);
+   font-size:24px;
+}*/
+.container .foot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -37px;
+}
+.container .foot .description{
+    width: 90%;
+    font-family: var(--font);
+    color:var(--mainColor);
+    font-size: 23px;
+}
+/******************************************/
+
+.Update{
+    z-index:1000;
+    background-color: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -50px;
+    float: right;
+    width: 410px;
+    height: 310px;
+    padding: -50px;
+    transform: scale(0);
+    transition:  0.3s ease-in-out;
+    border-radius: 15px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.Update form .Input label{
+    font-family: var(--font);
+    font-size: 25px;
+    margin-right: 77px;
+}
+.Update input[type="submit"]{
+    padding: 6px 12px;
+    margin-top: 10px;
+    background-color: var(--blue);
+    color:#FFF;
+    border-radius: 12px;
+    border:none;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+.Update input[type="submit"]:hover{
+    background-color: rgb(95, 94, 94);
+}
+.Update.show{
+    /*visibility: visible;*/
+    transform: scale(1);
+}
+/**************************************************/
+.imagesUser{
+    margin-left: -18%;
+}
+
+.Input{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+
+.Input input{
+    height: 30px;
+    padding-left: 10px;
+    width: 150px;
+}
+
+.submit{
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.mail input{
+    margin-left: 35px;
+}
+
+.password input{
+    margin-left: 8px;
+}
+
+.ima{
+    width: 200px;
+    position:relative;
+    right: 22px;
+}

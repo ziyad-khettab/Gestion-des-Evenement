@@ -1,0 +1,110 @@
+.main-container{
+    text-align: center;
+}
+
+#about-container{
+    background-color: #eaeaea;
+    padding-left: 10px;
+}
+
+.Container{
+    margin: 120px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    width:900px;
+    height:402px;
+    box-shadow: 9px 8px 10px #DDD;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.evenementHeader {
+    height : 100vh;
+    color : #FFF;
+    width : 100vw;
+    background: linear-gradient(to right, rgba(255, 20, 147, 0.4),rgba(100,179,244, 0.24)), url('./header.jpg') /* url(../../../..public/images/andrei-stratu-kcJsQ3PJrYU-unsplash.jpg)*/;
+    width: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-blend-mode : lighten;
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.evenementHeader h1{
+    font-size : 150px;
+    font-family: 'Handlee';
+}
+
+.evenementHeader h2{
+    font-family: 'Handlee';
+}
+
+.evenementHeader h3{
+    font-family: 'Handlee';
+}
+.evenementDescription{
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Handlee';
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.evenementDescription div{
+    width : 45%;
+    margin : 30px;
+}
+.evenementDescription h2 {
+    margin : 20px;
+    text-align: center;
+}
+.evenementDescription p{
+    text-align: justify;
+}
+.evenementDescription img{
+    width : 80%;
+    max-width: 360px;
+    max-height: 360px;
+}
+
+.otherEvents {
+    background-color: rgb(255, 255, 255);
+    display : flex ;
+    justify-content: space-around;
+    align-items : center;
+    height : 350px;
+
+}
+.eventCard{
+    margin : 50px;
+    width : 30%;
+    height : 80%;
+
+
+}
+.eventCard img {
+    border-radius : 10px;
+    width : 100%;
+    box-shadow : 8px 8 px 10px #ded;
+}
+
+.img{
+    border-radius: 12px;
+    box-shadow: 5px 7px 20px #888888;
+}
+
+.evenement-image{
+    width: 100%;
+    max-width: 450px;
+}
+
+.EvenementDetail{
+    background-color: #eaeaea;
+}
